@@ -1,0 +1,8 @@
+Run this below code in your MySQL Database management system
+
+CREATE DATABASE discord_bot;
+ USE discord_bot;
+ CREATE TABLE auth_tokens (
+     server_id VARCHAR(255) PRIMARY KEY,
+     token VARCHAR(255) NOT NULL
+ );
