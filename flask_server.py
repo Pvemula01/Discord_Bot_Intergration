@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
  
 app = Flask(__name__)
 passw='Pranav@20'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Pranav%4020@localhost/discord_bot'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://Your Username:Your Password@localhost/discord_bot'
 db = SQLAlchemy(app)
  
 class AuthToken(db.Model):
