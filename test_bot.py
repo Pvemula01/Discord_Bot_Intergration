@@ -3,7 +3,7 @@ from discord.ext import commands
 import requests
 import uuid
 
-TOKEN = 'MTE4Njc0MDM2MjU5NzkwNDQ3NA.G00NDW.w6MX6mwAzLu-0WhN9w8SB3HeTqvRVe7Uj9DT9E'
+TOKEN = 'YOUR Discord Bot Token'
 SERVER_URL = 'http://localhost:5000/store_token'
 intents = discord.Intents.default()
 intents.messages = True
