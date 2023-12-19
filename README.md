@@ -11,9 +11,11 @@ Creating a Discord bot by using python and mysql integration
 4.) After this go to your IDE and follow the next steps.
 
 **note:** Before running the flask_server.py file update this **mysql://Your Username:Your Password@localhost/discord_bot'** string with your username and password of MySQL DBMS.
+
 5.) Now run the **flask_server.py** file which will create a server and connect database to your bot.
 
-**note:** Before running the test_bot.py add your token which you saved earlier in the TOKEN variable
+**note:** Before running the test_bot.py add your token which you saved earlier in the TOKEN variable **TOKEN = 'YOUR Discord Bot Token'**
+
 6.) Now run the **test_bot.py** in command shell in your IDE file which will successfully create and connect your bot to the flask server and discord.
 
 7.) Now go to the browser and take the **URL** which you saved while creating the bot and with the help of that **invite bot** to your server.
