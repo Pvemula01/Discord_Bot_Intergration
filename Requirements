@@ -1,0 +1,12 @@
+Note: All the Below Installments should be done in the system or in Visual studio code terminal
+
+1.) install discord:command pip install discord
+To use All discord libraries
+
+2.) install flask:command pip install flask
+To setup a Server which helps to communicate with database.
+
+3.) install mysql:command pip install mysql
+To use mysql in Visual studio code(VS code)
+
+4.)install pymysql:command pip install pymysql
